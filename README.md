@@ -123,7 +123,7 @@ The **video playback system** is built using **JavaFX MediaPlayer** and provides
 
   ---
 
-## 🔷Performance Considerations
+## 🔷 Performance Considerations
 The algorithm is evaluated based on:
 - **Correctness of match** (video + frame position)
 - **Speed of search & indexing**
@@ -138,4 +138,17 @@ The algorithm is evaluated based on:
 - **Shot boundary detection and digital signatures optimize search speed**.
 - **Handles noisy audio and slight video variations**.
 
+---
+
+## Note:
+## 🔷 Data Files Not Included
+This repository does not include the following essential data files due to size and storage constraints:
+
+- **Hashed JSON Files** 
+  - These files contain the **hashed frames** and their corresponding video timestamps.
+  - They are generated as part of the **preprocessing step** and are **required for frame matching**.
+
+- **Video Database**
+  - The repository does not store **large video files** due to GitHub’s **storage limitations**.
+    
 ---
