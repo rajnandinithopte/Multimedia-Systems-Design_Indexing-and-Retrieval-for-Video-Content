@@ -1,4 +1,4 @@
-# Multimedia-Systems-Design_Indexing-and-Retrieval-for-Video-Content
+# Multimedia Systems Design- Indexing and Retrieval for Video Content
 ## Video Content Search using Hash-based Frame Matching
 
 ### Overview
